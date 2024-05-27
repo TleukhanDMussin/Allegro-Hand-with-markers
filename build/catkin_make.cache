@@ -1,0 +1,2 @@
+allegro_hand:allegro_hand_controllers:allegro_hand_description:allegro_hand_driver:allegro_hand_keyboard:allegro_hand_parameters:bhand:epfl_allegro_launchers:using_markers
+-DCATKIN_DEVEL_PREFIX=/home/rustam/allegro_ws/devel -DCMAKE_INSTALL_PREFIX=/home/rustam/allegro_ws/install -G Unix Makefiles

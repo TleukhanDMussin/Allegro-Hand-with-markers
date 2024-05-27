@@ -1,0 +1,8 @@
+prefix=/home/rustam/allegro_ws/install
+
+Name: using_markers
+Description: Description of using_markers
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: roscpp visualization_msgs message_runtime

@@ -1,0 +1,59 @@
+# Gains for the Velocity Saturation Joint Space Controller
+# included with the Allegro Hand ROS Package.
+# P and D gains and Max Velocity for each of the 16 joints.
+
+# proportial
+gains_velSat:
+ p:
+  j00: 500.0
+  j01: 500.0
+  j02: 500.0
+  j03: 500.0
+  j10: 500.0
+  j11: 500.0
+  j12: 500.0
+  j13: 500.0
+  j20: 500.0
+  j21: 500.0
+  j22: 500.0
+  j23: 500.0
+  j30: 500.0
+  j31: 500.0
+  j32: 500.0
+  j33: 500.0
+#derivative
+ d:
+  j00: 60.0
+  j01: 60.0
+  j02: 60.0
+  j03: 60.0
+  j10: 60.0
+  j11: 60.0
+  j12: 60.0
+  j13: 60.0
+  j20: 60.0
+  j21: 60.0
+  j22: 60.0
+  j23: 60.0
+  j30: 60.0
+  j31: 60.0
+  j32: 60.0
+  j33: 60.0
+#max velocity
+ v_max:
+  j00: 0
+  j01: 0
+  j02: 0
+  j03: 0
+  j10: 0
+  j11: 0
+  j12: 0
+  j13: 0
+  j20: 0
+  j21: 0
+  j22: 0
+  j23: 0
+  j30: 0
+  j31: 0
+  j32: 0
+  j33: 0

@@ -1,0 +1,8 @@
+prefix=/home/rustam/allegro_ws/devel
+
+Name: bhand
+Description: Description of bhand
+Version: 0.0.0
+Cflags: -I/home/rustam/allegro_ws/src/bhand/include
+Libs: -L${prefix}/lib -lBHand
+Requires: 
