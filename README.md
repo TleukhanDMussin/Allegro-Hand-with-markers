@@ -3,22 +3,12 @@
 Allegro Hand ROS
 ================================
 
-This is the official release to control Allegro Hand with ROS Kinetic.
-Mostly, it is based on the old release of Allegro Hand ros package and the interfaces 
-and controllers have been improved and rewritten much by Felix Duballet from EPFL. 
-Thank you for the contribution.
+This repository contains code for controlling and visualizing the Allegro Hand equipped with markers on its fingertips. The markers provide both fingertip coordinates and pressure values, enabling effective object classification. The project was presented at SII 2024 and demonstrates real-time robotic hand manipulation and sensing. The code is built upon the older release of the Allegro Hand ROS package and has been optimized for robust marker-based tracking and object interaction.
 
 You can find old release of the [hand ros package][1].
 [1]: https://github.com/simlabrobotics/allegro_hand_ros_v4
 
-It improves significantly upon the old release, simplifies the launch file structure,
-updates the package/node names to
-have a more consistent structure, improves the build process by creating a
-common driver, introduces an AllegroNode C++ class that reduces the amount of
-duplicated code. It also provides a python library that can control the hand
-directly.
-
-It also provides the BHand library directly in this package (including both
+The repo also provides the BHand library directly in this package (including both
 32-bit and 64-bit versions, though 32-bit systems will need to update the
 symlink manually).
 
